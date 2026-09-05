@@ -1,0 +1,27 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.05em;
+  white-space: nowrap;
+}
+
+.green {
+  background: var(--color-primary-tint);
+  color: var(--color-primary);
+}
+
+.red {
+  background: var(--color-error-tint);
+  color: var(--color-error);
+}
+
+.neutral {
+  background: var(--color-disabled-bg);
+  color: var(--color-text);
+}

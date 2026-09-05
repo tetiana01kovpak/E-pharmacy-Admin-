@@ -1,0 +1,17 @@
+.pageTitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .panels {
+    grid-template-columns: 1fr 1fr;
+  }
+}
